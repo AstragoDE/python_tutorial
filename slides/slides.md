@@ -13,8 +13,17 @@ title: Python Tutorial
 ---
 
 # Python Tutorial
-## by AstragoDE
+## von AstragoDE
 
+---
+layout: statement
+---
+
+# Hinweis
+
+Bei den in diesem Tutorial verwendeten Beispielen handelt es sich um **Beispiele**.
+Der von dir geschriebene Code muss nicht genau so aussehen, wie in diesem Tutorial.
+Es gibt oft sehr viele verschiedene Wege, ein Problem zu lösen.
 
 ---
 src: ./pages/001-was-ist-python.md
@@ -33,5 +42,15 @@ hide: false
 
 ---
 src: ./pages/006-bedingungen.md
+hide: false
+---
+
+---
+src: ./pages/007-schleifen.md
+hide: false
+---
+
+---
+src: ./pages/008-turtle.md
 hide: false
 ---
