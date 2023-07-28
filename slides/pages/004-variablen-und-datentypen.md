@@ -129,9 +129,39 @@ Erstelle folgende Variablen:
 
 - *name* mit dem Namen Robert
 - *alter* mit einem beliebigen Alter (Ganzzahl)
-- *groesse* mit mit einer beliebigen Kommazahl
+- *groesse* mit der größe von 181 cm in m (Kommazahl)
 - *istProgrammierer* mit einem Wahrheitswert
+
+Beachte, dass Kommazahlen in Python mit einem Punkt statt einem Komma angegeben werden.
+
+---
+
+# Aufgaben
 
 ## Aufgabe 2
 
-**WORK IN PROGRESS**
+1. Gib die Variablen mit dem `print()` befehl aus.
+1. Gib mindestens 2 Variablem in einem Print Befehl aus.
+
+**Tipp:**
+Um Variablen eines unterschiedlichen Typs in einem Print-Befehl auszugeben, muss man sie mit dem `str(WERT)` Befehl in einen String konvertieren.
+
+<v-click>
+
+*Besispiel:*
+
+```python
+alter = 25
+print("Olaf ist " + str(alter) + " Jahre alt.")
+```
+
+</v-click>
+
+
+---
+
+# Aufgaben
+
+## Aufgabe 3
+
+- Verändere einige Variablen unter der Ausgabe und gib sie erneut aus.

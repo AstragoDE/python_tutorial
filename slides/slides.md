@@ -25,3 +25,13 @@ hide: false
 src: ./pages/004-variablen-und-datentypen.md
 hide: false
 ---
+
+---
+src: ./pages/005-eingaben-und-ausgaben.md
+hide: false
+---
+
+---
+src: ./pages/006-bedingungen.md
+hide: false
+---

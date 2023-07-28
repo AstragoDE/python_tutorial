@@ -12,4 +12,5 @@ print(name + " ist " + str(alter) + " Jahre alt und " + str(groesse) + "m groß.
 groesse = 1.83
 alter = alter + 1
 
-print(f"{name} ist {alter} Jahre alt und {groesse}m groß.") # Formatierter String
+print(name + " ist " + str(alter) + " Jahre alt und " + str(groesse) + "m groß.")
+
