@@ -1,10 +1,8 @@
 ---
-theme: dracula
-# transition: slide-left
 layout: section
 ---
 
-# Lesson 1:  Was ist Python ?
+# Lektion 1:  Was ist Python ?
 
 ---
 

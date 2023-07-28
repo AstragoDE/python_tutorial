@@ -20,3 +20,8 @@ title: Python Tutorial
 src: ./pages/001-was-ist-python.md
 hide: false
 ---
+
+---
+src: ./pages/004-variablen-und-datentypen.md
+hide: false
+---
