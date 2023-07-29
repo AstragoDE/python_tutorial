@@ -79,19 +79,15 @@ print(summe)
 ## Beispiel 2: Zusammenfügen von Strings
 **Programm:**
 ```python 
-begruessung = "Hallo, "
+begruessung = "Hallo,"
 name = "Uwe"
 text = begruessung + " " + name
 
-print(begruessung)
-print(name)
 print(text)
 ```
 
 **Ausgabe:**
 ```
-Hallo,
-Uwe
 Hallo, Uwe
 ```
 
@@ -144,7 +140,7 @@ Beachte, dass Kommazahlen in Python mit einem Punkt statt einem Komma angegeben 
 1. Gib mindestens 2 Variablem in einem Print Befehl aus.
 
 **Tipp:**
-Um Variablen eines unterschiedlichen Typs in einem Print-Befehl auszugeben, muss man sie mit dem `str(WERT)` Befehl in einen String konvertieren.
+Um Variablen eines unterschiedlichen Typs in einem Print-Befehl auszugeben, muss man sie mit dem `str(WERT)`-Befehl in einen String konvertieren, wenn es sich bei der varible nicht um einen String handelt.
 
 <v-click>
 

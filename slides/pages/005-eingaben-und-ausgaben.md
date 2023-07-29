@@ -34,7 +34,7 @@ Schreibe ein Programm, welches den Benutzer nach seinem Namen fragt, und diesen 
 eingabe = input("Dein Alter: ")
 ```
 
-- Du kannst *formatierte Strings* (F-Strings) verwenden, um eine Variable im Text auszugeben
+- Du kannst *formatierte Strings* (F-Strings) verwenden, um eine Variable im Text auszugeben. Diese muss dann auch nicht konvertiert werden.
 
 ```python {2}
 eingabe = input("Dein Alter: ")
