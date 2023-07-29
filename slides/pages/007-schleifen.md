@@ -51,6 +51,7 @@ while i < 10:
 
 - Die `for`-Schleife führt den Code in ihrem Rumpf für jedes Element in einer Liste aus
   - --> *Listen folgen später*
+- Bei jedem Durchlauf wird das aktuelle Element in der Variablen `i` gespeichert
 
 ## Beispiel:
 
@@ -92,4 +93,6 @@ Wenn eine Zahl durch 3 und 5 teilbar ist, soll "FizzBuzz" ausgegeben werden.
 
 **Hinweis:**
 Der Modulo-Operator `%` gibt den Rest einer Division zurück. `10 % 3` ist also 1.
+
+---
 
