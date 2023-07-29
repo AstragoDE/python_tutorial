@@ -80,7 +80,7 @@ print(summe)
 **Programm:**
 ```python 
 begruessung = "Hallo, "
-name = "Olaf"
+name = "Uwe"
 text = begruessung + " " + name
 
 print(begruessung)
@@ -91,8 +91,8 @@ print(text)
 **Ausgabe:**
 ```
 Hallo,
-Olaf
-Hallo, Olaf
+Uwe
+Hallo, Uwe
 ```
 
 ---
@@ -103,7 +103,7 @@ Hallo, Olaf
 **Programm:**
 ```python 
 begruessung = "Hallo, "
-name = "Olaf"
+name = "Uwe"
 text = begruessung / " " + name
 
 print(begruessung)
@@ -152,7 +152,7 @@ Um Variablen eines unterschiedlichen Typs in einem Print-Befehl auszugeben, muss
 
 ```python
 alter = 25
-print("Olaf ist " + str(alter) + " Jahre alt.")
+print("Uwe ist " + str(alter) + " Jahre alt.")
 ```
 
 </v-click>

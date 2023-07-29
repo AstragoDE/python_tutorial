@@ -38,7 +38,7 @@ eingabe = input("Dein Alter: ")
 
 ```python {2}
 eingabe = input("Dein Alter: ")
-print(f"Olaf ist {eingabe} Jahre alt.")
+print(f"Horst ist {eingabe} Jahre alt.")
 ```
 
 ---
