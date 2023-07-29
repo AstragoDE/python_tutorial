@@ -2,6 +2,7 @@
 
 ## Download Links
 - [Python](https://www.python.org/downloads/)
+  - Beachte, dass du Python zum PATH hinzufügen musst!
 - [VS Code](https://code.visualstudio.com/)
 
 ## VS Code Extentions
