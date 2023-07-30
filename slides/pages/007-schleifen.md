@@ -124,5 +124,3 @@ Wenn eine Zahl durch 3 und 5 teilbar ist, soll "FizzBuzz" ausgegeben werden.
 
 **Hinweis:**
 Der Modulo-Operator `%` gibt den Rest einer Division zurück. `10 % 3` ist also 1.
-
----
