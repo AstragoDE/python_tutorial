@@ -32,6 +32,7 @@ while i < 10:
 `i += 1` ist eine Kurzform für `i = i + 1`
 
 **Ausgabe:**
+
 ```
 0
 1
@@ -50,7 +51,7 @@ while i < 10:
 # Die `for`-Schleife
 
 - Die `for`-Schleife führt den Code in ihrem Rumpf für jedes Element in einer Liste aus
-  - --> *Listen folgen später*
+  - --> _Listen folgen später_
 - Bei jedem Durchlauf wird das aktuelle Element in der Variablen `i` gespeichert
 
 ## Beispiel:
@@ -61,6 +62,7 @@ for i in range(10):
 ```
 
 **Ausgabe:**
+
 ```
 0
 1
@@ -73,9 +75,10 @@ for i in range(10):
 8
 9
 ```
+
 `range(10)` ist eine Funktion, die eine Liste mit den Zahlen von 0 bis 9 zurückgibt.
 
---- 
+---
 
 # `break` und `continue`
 
@@ -103,7 +106,6 @@ for i in range(10):
 7
 ```
 
-
 ---
 
 # Aufgaben
@@ -124,4 +126,3 @@ Wenn eine Zahl durch 3 und 5 teilbar ist, soll "FizzBuzz" ausgegeben werden.
 Der Modulo-Operator `%` gibt den Rest einer Division zurück. `10 % 3` ist also 1.
 
 ---
-

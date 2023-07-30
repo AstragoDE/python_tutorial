@@ -3,6 +3,7 @@ layout: section
 ---
 
 # Dictionaries
+
 ## (Wörterbücher)
 
 ---
@@ -31,7 +32,7 @@ einkaufsliste = {
 }
 
 milch_menge = einkaufsliste["Milch"] # speichert den Wert von "Milch" in der Variable milch_menge
-print(milch_menge) 
+print(milch_menge)
 
 print(einkaufsliste["Brot"]) # gibt den Wert von "Brot" aus
 ```
@@ -47,7 +48,7 @@ print(einkaufsliste["Brot"]) # gibt den Wert von "Brot" aus
 
 # Dictionaries - Beispiele
 
-## Elemente hinzufügen und entfernen 
+## Elemente hinzufügen und entfernen
 
 ```python
 einkaufsliste = {
@@ -73,7 +74,7 @@ print(einkaufsliste)
 {'Milch': 1, 'Brot': 2, 'Käse': 1, 'Wurst': 2}
 ```
 
---- 
+---
 
 # Dictionaries - Beispiele
 
@@ -105,4 +106,3 @@ Käse -> 1
 # Aufgabe
 
 Erstelle ein Programm, welches eine Einkaufsliste erstellen kann, indem es den Benutzer nach dem Namen und der Menge eines Produktes fragt. Baue eine Funktion ein, welche die Einkaufsliste ausgibt.
-

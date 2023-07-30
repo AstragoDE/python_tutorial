@@ -17,7 +17,6 @@ layout: section
   - ToDo-Listen (Aufgaben)
   - Reiseplanung (Koordination von Reisezielen)
 
-
 Beispiel:
 
 ```python
@@ -53,7 +52,7 @@ print(len(meine_liste))
 ['Horst-Günter', 'Peter', 'Manfred']
 ```
 
---- 
+---
 
 # Liste - Beispiele
 
@@ -126,7 +125,6 @@ print(meine_liste)
 
 # Strings teilen und in Listen umwandeln - Zusatz
 
-
 Wenn zwischen den Trennzeichen Leerzeichen stehen, werden diese mit in die Liste aufgenommen.
 Um Leerzeichen zu entfernen, kann die `strip()`-Methode verwendet werden.
 
@@ -166,5 +164,5 @@ mitarbeiter = ["Uwe", "Peter", "Manfred", "Horst-Günter"]
 Gegeben ist die Liste aus Aufgabe 1. Schreibe ein Programm, das eine zweite Liste erstellt, die die Namen der Mitarbeiter in umgekehrter Reihenfolge enthält.
 
 **Tipps:**
-- Die `insert(<INDEX>, <ELEMENT>)`-Methode kann verwendet werden, um ein Element an einer bestimmten Stelle in eine Liste einzufügen.
 
+- Die `insert(<INDEX>, <ELEMENT>)`-Methode kann verwendet werden, um ein Element an einer bestimmten Stelle in eine Liste einzufügen.

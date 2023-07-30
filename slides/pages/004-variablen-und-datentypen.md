@@ -16,11 +16,13 @@ layout: section
 ## Beispiel
 
 **"Hello World" mit festgeschriebenen Werten**
+
 ```python
 print("Hallo Welt!")
 ```
 
 **"Hello World" mit Variable**
+
 ```python {all|1|2}
 nachricht = "Hallo Welt!"
 print(nachricht)
@@ -31,7 +33,7 @@ print(nachricht)
 # Datentypen
 
 - Daten haben unterschiedliche Datentypen
-  
+
 ## Warum?
 
 - Bestimmte Operationen lassen sich nur mit speziellen Datentypen durchführen
@@ -42,19 +44,21 @@ print(nachricht)
 
 # Datentypen in Python
 
-| Datentyp | Verwendung| Beispiel |
-| ----- | ----- | ----- |
-| Integer | Ganzzahlen | 69420 |
-| Float | Kommazahlen | 3.14159 |
-| Boolean | Wahrheitswerte | True *oder* False |
-| String | Zwichenketten | "Hallo Welt!" |
+| Datentyp | Verwendung     | Beispiel          |
+| -------- | -------------- | ----------------- |
+| Integer  | Ganzzahlen     | 69420             |
+| Float    | Kommazahlen    | 3.14159           |
+| Boolean  | Wahrheitswerte | True _oder_ False |
+| String   | Zwichenketten  | "Hallo Welt!"     |
 
 ---
 
 # Beispiele
 
 ## Beispiel 1: Addition von 2 Variablen
+
 **Programm:**
+
 ```python {1|2|3|5-6|7|all}
 zahl_a = 5
 zahl_b = 8
@@ -66,6 +70,7 @@ print(summe)
 ```
 
 **Ausgabe:**
+
 ```
 5
 8
@@ -77,8 +82,10 @@ print(summe)
 # Beispiele
 
 ## Beispiel 2: Zusammenfügen von Strings
+
 **Programm:**
-```python 
+
+```python
 begruessung = "Hallo,"
 name = "Uwe"
 text = begruessung + " " + name
@@ -87,6 +94,7 @@ print(text)
 ```
 
 **Ausgabe:**
+
 ```
 Hallo, Uwe
 ```
@@ -96,8 +104,10 @@ Hallo, Uwe
 # Beispiele
 
 ## Beispiel 3: Ein Fehler
+
 **Programm:**
-```python 
+
+```python
 begruessung = "Hallo, "
 name = "Uwe"
 text = begruessung / " " + name
@@ -108,6 +118,7 @@ print(text)
 ```
 
 **Ausgabe:**
+
 ```
 Traceback (most recent call last):
   File "main.py", line 3, in <module>
@@ -115,7 +126,7 @@ Traceback (most recent call last):
 TypeError: unsupported operand type(s) for /: 'str' and 'str'
 ```
 
---- 
+---
 
 # Aufgaben
 
@@ -123,10 +134,10 @@ TypeError: unsupported operand type(s) for /: 'str' and 'str'
 
 Erstelle folgende Variablen:
 
-- *name* mit dem Namen Robert
-- *alter* mit einem beliebigen Alter (Ganzzahl)
-- *groesse* mit der größe von 181 cm in m (Kommazahl)
-- *istProgrammierer* mit einem Wahrheitswert
+- _name_ mit dem Namen Robert
+- _alter_ mit einem beliebigen Alter (Ganzzahl)
+- _groesse_ mit der größe von 181 cm in m (Kommazahl)
+- _istProgrammierer_ mit einem Wahrheitswert
 
 Beachte, dass Kommazahlen in Python mit einem Punkt statt einem Komma angegeben werden.
 
@@ -144,7 +155,7 @@ Um Variablen eines unterschiedlichen Typs in einem Print-Befehl auszugeben, muss
 
 <v-click>
 
-*Besispiel:*
+_Besispiel:_
 
 ```python
 alter = 25
@@ -152,7 +163,6 @@ print("Uwe ist " + str(alter) + " Jahre alt.")
 ```
 
 </v-click>
-
 
 ---
 

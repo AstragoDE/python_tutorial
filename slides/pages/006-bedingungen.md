@@ -21,18 +21,18 @@ layout: section
 
 # Vergleichsoperationen
 
-| Operator | Beschreibung           | Beispiel    |
-|----------|------------------------|-------------|
-| ==       | Gleich                 | 5 == 5      |
-| !=       | Nicht gleich           | 5 != 3      |
-| >        | Größer als             | 10 > 5      |
-| <        | Kleiner als            | 3 < 7       |
-| >=       | Größer oder gleich     | 8 >= 8      |
-| <=       | Kleiner oder gleich    | 4 <= 6      |
+| Operator | Beschreibung        | Beispiel |
+| -------- | ------------------- | -------- |
+| ==       | Gleich              | 5 == 5   |
+| !=       | Nicht gleich        | 5 != 3   |
+| >        | Größer als          | 10 > 5   |
+| <        | Kleiner als         | 3 < 7    |
+| >=       | Größer oder gleich  | 8 >= 8   |
+| <=       | Kleiner oder gleich | 4 <= 6   |
 
 Alle Vergleichsoperationen geben entweder `True` oder `False` zurück.
 
---- 
+---
 
 # Die `if`-Bedingung
 
@@ -52,12 +52,12 @@ if name == "Manfred":
     print("Hallo Manfred! Schön dich zu sehen!")
 ```
 
---- 
+---
 
 # Die `elif`-Bedingung
 
 - Die `elif`-Bedingung ist eine Erweiterung der `if`-Bedingung.
-- `elif` steht für *else if*, also *sonst wenn*.
+- `elif` steht für _else if_, also _sonst wenn_.
 - Sie wird immer dann ausgeführt, wenn die Bedingung erfüllt ist, die vorherige jedoch nicht.
 - Man kann sie beliebig oft hintereinander verwenden.
 
@@ -100,7 +100,7 @@ Achte darauf, den String der Input-Funktion in eine Zahl umzuwandeln.
 - Dafür gibt es die Operatoren `and` und `or`.
 - Mehrere Bedingungen können auch verschachtelt werden.
 
-## Beispiel -  Verknüpfung:
+## Beispiel - Verknüpfung:
 
 ```python
 name = input("Dein Name: ")
@@ -108,7 +108,7 @@ if name == "Uwe" or name == "Peter":
     print("Hallo Uwe oder Peter! Schön euch zu sehen!")
 ```
 
-## Beispiel -  Verschachtelung:
+## Beispiel - Verschachtelung:
 
 ```python
 name = input("Dein Name: ")

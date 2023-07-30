@@ -2,13 +2,13 @@
 layout: section
 ---
 
-# Lektion 1:  Was ist Python ?
+# Lektion 1: Was ist Python ?
 
 ---
 
 # Was ist Python?
 
-- erster Release: 1991 
+- erster Release: 1991
 - High-Level programmiersprache
   - leicht zu erlernen
 - Weit verbreitet
@@ -18,8 +18,10 @@ layout: section
   - Interpreter beötigt
 
 ---
+
 layout: image-right
 image: images/interpreter.png
+
 ---
 
 # Was ist ein Interpreter?
@@ -32,12 +34,12 @@ image: images/interpreter.png
 
 ---
 
-# Video: Interpreters and Compilers 
+# Video: Interpreters and Compilers
 
 <Youtube id="_C5AHaS1mOA" height="90%" width="100%" />
 
 ---
-layout: fact
----
+
+## layout: fact
 
 # Los geht's!
