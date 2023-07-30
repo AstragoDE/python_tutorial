@@ -102,6 +102,53 @@ Horst-Günter
 
 ---
 
+# Strings teilen und in Listen umwandeln
+
+- Strings können mit der `split(<TRENNZEICHEN>)`-Methode in Listen umgewandelt werden
+
+## Beispiel
+
+```python
+mein_string = "Uwe,Peter,Manfred,Horst-Günter"
+
+meine_liste = mein_string.split(",")  # teilt den String an jedem Komma
+
+print(meine_liste)
+```
+
+**Ausgabe:**
+
+```
+['Uwe', 'Peter', 'Manfred', 'Horst-Günter']
+```
+
+---
+
+# Strings teilen und in Listen umwandeln - Zusatz
+
+
+Wenn zwischen den Trennzeichen Leerzeichen stehen, werden diese mit in die Liste aufgenommen.
+Um Leerzeichen zu entfernen, kann die `strip()`-Methode verwendet werden.
+
+```python
+mein_string = "Uwe   , Peter, Manfred ,Horst-Günter"
+
+meine_liste = mein_string.split(",")  # teilt den String an jedem Komma
+
+for i in range(len(meine_liste)):
+    meine_liste[i] = meine_liste[i].strip()  # entfernt Leerzeichen am Anfang und Ende
+
+print(meine_liste)
+```
+
+**Ausgabe:**
+
+```
+['Uwe', 'Peter', 'Manfred', 'Horst-Günter']
+```
+
+---
+
 # Aufgaben
 
 ## Aufgabe 1

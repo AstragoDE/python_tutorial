@@ -59,3 +59,8 @@ hide: false
 src: ./pages/009-listen.md
 hide: false
 ---
+
+---
+src: ./pages/010-dictionaries.md
+hide: false
+---

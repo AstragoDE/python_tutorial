@@ -77,6 +77,35 @@ for i in range(10):
 
 --- 
 
+# `break` und `continue`
+
+- Mit `break` kann eine Schleife vorzeitig beendet werden
+- Mit `continue` kann ein Durchlauf der Schleife vorzeitig beendet werden. Die Schleife wird dann mit dem nächsten Element fortgesetzt.
+
+```python
+for i in range(10):
+    if i == 5:
+        continue
+    if i == 8:
+        break
+    print(i)
+```
+
+**Ausgabe:**
+
+```
+0
+1
+2
+3
+4
+6
+7
+```
+
+
+---
+
 # Aufgaben
 
 ## Aufgabe 1
