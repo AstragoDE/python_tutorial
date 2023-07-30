@@ -19,11 +19,6 @@ layout: section
 
 ---
 
-layout: image-right
-image: images/interpreter.png
-
----
-
 # Was ist ein Interpreter?
 
 - Um ein Programm auszuführen muss es für den Computer übersetzt werden.
