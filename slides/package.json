@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build": "slidev build",
+    "build_gh": "slidev build --base python_tutorial",
     "dev": "slidev --open",
     "export": "slidev export"
   },
@@ -10,6 +11,7 @@
     "@slidev/cli": "^0.42.5",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
-    "slidev-theme-dracula": "^0.2.0"
+    "slidev-theme-dracula": "^0.2.0",
+    "@mrdrogdrog/optional": "latest"
   }
 }
