@@ -33,8 +33,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Install slidev
-        run: npm i -g @slidev/cli
+      # - name: Install slidev
+      #   run: npm i -g @slidev/cli
 
       - name: Build
         # run: slidev build --base python_tutorial
