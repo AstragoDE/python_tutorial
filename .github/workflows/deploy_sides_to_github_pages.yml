@@ -1,10 +1,13 @@
 name: Deploy pages
 
 on:
-  workflow_dispatch: {}
   push:
     branches:
       - main
+
+defaults:
+  run:
+    working-directory: ./slides
 
 jobs:
   deploy:
@@ -27,13 +30,13 @@ jobs:
           node-version: "lts/*"
 
       - name: Install dependencies
-        run: cd ./slides && npm install
+        run: npm install
 
       - name: Install slidev
-        run: cd ./slides && npm i -g @slidev/cli
+        run: npm i -g @slidev/cli
 
       - name: Build
-        run: cd ./slides && slidev build --base python_tutorial
+        run: slidev build --base python_tutorial
 
       - uses: actions/configure-pages@v3
 
