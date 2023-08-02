@@ -6,7 +6,7 @@ while True:
     if modus == 0:
         exit()
 
-    while modus == 1:
+    if modus == 1:
         print("Eingabemodus")
         weitereEingabe = True
 
@@ -25,7 +25,7 @@ while True:
 
         modus = int(input("Ausgabemodus (2) oder Programm beenden (0): "))
 
-    while modus == 2:
+    if modus == 2:
         print("Ausgabemodus")
 
         for produkt, menge in einkaufsliste.items():
