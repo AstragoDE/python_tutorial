@@ -8,11 +8,20 @@ while True:
 
     while modus == 1:
         print("Eingabemodus")
+        weitereEingabe = True
 
-        produkt = input("Produktname: ")
-        menge = int(input("Menge: "))
+        while weitereEingabe:
+            produkt = input("Produktname: ")
+            menge = int(input("Menge: "))
 
-        einkaufsliste[produkt] = menge
+            weA = input("Weitere eingabe? ")
+
+            einkaufsliste[produkt] = menge
+
+            if weA.capitalize().startswith("J"):
+                continue
+            else:
+                weitereEingabe = False
 
         modus = int(input("Ausgabemodus (2) oder Programm beenden (0): "))
 

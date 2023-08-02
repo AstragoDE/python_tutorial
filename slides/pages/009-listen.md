@@ -49,7 +49,9 @@ print(len(meine_liste))
 
 ```text
 ['Horst-Günter', 'Uwe', 'Peter', 'Manfred']
+4
 ['Horst-Günter', 'Peter', 'Manfred']
+3
 ```
 
 ---
@@ -157,11 +159,11 @@ Gegeben ist eine Liste mit den Namen von Mitarbeitern. Schreibe ein Programm, da
 mitarbeiter = ["Uwe", "Peter", "Manfred", "Horst-Günter"]
 ```
 
-**Hinweis:** Wie auch Listen, können Strings mit dem Index angesprochen werden. Jeder Buchstabe hat seinen eigenen Index.
+**Hinweis:** Wie auch Listen, können Strings mit dem Index angesprochen werden. Jeder Buchstabe hat seinen eigenen Index. `name[0]` gib den Anfabgsbuchstaben des Namens aus.
 
 ## Aufgabe 2
 
-Gegeben ist die Liste aus Aufgabe 1. Schreibe ein Programm, das eine zweite Liste erstellt, die die Namen der Mitarbeiter in umgekehrter Reihenfolge enthält.
+Gegeben ist die Liste aus Aufgabe 1. Schreibe ein Programm, das eine zweite Liste erstellt, die die Namen der Mitarbeiter in umgekehrter Reihenfolge enthält. Die namen selbst bleiben unverändert.
 
 **Tipps:**
 
