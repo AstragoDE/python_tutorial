@@ -1,3 +1,8 @@
 {
-  "editor.formatOnSave": false
+  "files.associations": {
+    "*.md": "markdown"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false
+  }
 }
