@@ -13,11 +13,12 @@ title: Python Tutorial
 ---
 
 # Python Tutorial
+
 ## von AstragoDE
 
 ---
-layout: statement
----
+
+## layout: statement
 
 # Hinweis
 
@@ -62,5 +63,20 @@ hide: false
 
 ---
 src: ./pages/010-dictionaries.md
+hide: false
+---
+
+---
+src: ./pages/011-funktionen.md
+hide: false
+---
+
+---
+src: ./pages/012-vscode.md
+hide: false
+---
+
+---
+src: ./pages/013-wetterprojekt.md
 hide: false
 ---

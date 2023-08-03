@@ -2,7 +2,7 @@
 layout: section
 ---
 
-# Dictionaries
+# Lektion 7: Dictionaries
 
 ## (Wörterbücher)
 

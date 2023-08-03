@@ -2,7 +2,7 @@
 layout: section
 ---
 
-# Eingaben und Ausgaben
+# Lektion 3: Eingaben und Ausgaben
 
 ---
 
