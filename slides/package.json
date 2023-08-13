@@ -5,7 +5,7 @@
     "build": "slidev build",
     "build_gh": "slidev build --base python_tutorial",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export --with-clicks"
   },
   "dependencies": {
     "@slidev/cli": "^0.42.5",
