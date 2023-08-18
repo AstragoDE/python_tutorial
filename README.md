@@ -1,3 +1,3 @@
 # Python Tutorial by AstragoDE
 
-## [Präsentation](https://astragodesharing.github.io/python_tutorial)
+## [Präsentation](https://astragode.github.io/python_tutorial)
