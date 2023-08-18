@@ -34,7 +34,8 @@ layout: section
 <Youtube id="_C5AHaS1mOA" height="90%" width="100%" />
 
 ---
+layout: fact
+---
 
-## layout: fact
 
 # Los geht's!
