@@ -1,4 +1,0 @@
-- Peter
-- Uwe
-- Manfred
-- Horst
